@@ -2,29 +2,15 @@
   "name": "keybinding-resolver",
   "main": "./lib/main",
   "version": "0.38.1",
-  "description": "Show what commands a keybinding resolves to",
+  "description": "Show what commands a keybinding resolves to.",
   "license": "MIT",
-  "repository": "https://github.com/atom/keybinding-resolver",
+  "repository": "https://github.com/via-platform/keybinding-resolver",
   "engines": {
-    "atom": ">0.79.0"
+    "via": "*"
   },
   "dependencies": {
     "etch": "0.9.0",
     "fs-plus": "^3.0.0",
     "temp": "^0.8.1"
-  },
-  "devDependencies": {
-    "standard": "^10.0.3"
-  },
-  "standard": {
-    "env": {
-      "atomtest": true,
-      "browser": true,
-      "jasmine": true,
-      "node": true
-    },
-    "globals": [
-      "atom"
-    ]
   }
 }
